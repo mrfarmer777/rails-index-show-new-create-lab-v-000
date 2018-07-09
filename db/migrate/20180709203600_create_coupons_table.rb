@@ -1,4 +1,4 @@
-class CreateCouponsTable < ActiveRecord::Migration
+class CreateCouponTable < ActiveRecord::Migration
   def change
     create_table :coupons_table do |t|
       t.string :coupon_code
